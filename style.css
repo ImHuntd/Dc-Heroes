@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0282F9;
+  height: 110px;
+  width: 100%;
+}
+
+.header-text {
+  font-size: 60px;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: 23px;
+  left: 100px;
+  color: white;
+}
+
+#dc-image {
+  height: 80px;
+  width: 80px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.container-main {
+  height: calc(100vh - 116px);
+  border: 1px solid red;
+}
+
+.container-left {
+  height: 100%;
+  width: 300px;
+  border: 1px solid red;
+  float: left;
+}
+
+.container-left h1 {
+  color: black;
+}
+
+.container-center {
+  height: 100%;
+  width: 300px;
+  border: 1px solid red;
+  float: left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container-center div {
+  height: 300px;
+  width: 300px;
+  background-color: #f1f1f1;
+}
+
+.container-center img {
+  height: 100px;
+
+}
+
+.container-right {
+  height: 100%;
+  width: 910px;
+  border: 1px solid red;
+  float: left;
+  overflow-y: scroll;
+}
+
+.container-right div img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  right: 360px;
+  top: 310px;
+  background-color: black;
+  z-index: 2;
+
+}
+
+.HeroBackgroundForImg {
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  background-color: grey;
+}
+
+.HeroName {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  top: 240px;
+  right: 260px;
+  text-align: center;
+}
+
+.HeroDescription {
+  top: 150px;
+  position: relative;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	color: #000;
+	text-align: center;
+}
+
+#footer-text {
+	margin: 0 auto;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
